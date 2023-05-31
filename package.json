@@ -1,0 +1,23 @@
+{
+  "name": "cypress-realworldapp",
+  "version": "1.0.0",
+  "description": "Tests in Cypress framework written for RealWorldApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karolina-dyrda/Cypress-RealworldApp.git"
+  },
+  "keywords": [
+    "typescript",
+    "cypress"
+  ],
+  "author": "Karolina Dyrda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karolina-dyrda/Cypress-RealworldApp/issues"
+  },
+  "homepage": "https://github.com/karolina-dyrda/Cypress-RealworldApp#readme"
+}
