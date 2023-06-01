@@ -1,0 +1,34 @@
+{
+    "user": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "jdoe@gmail.com",
+        "phone": "000-999-888"
+    },
+    "account": {
+        "bankName": "National Bank",
+        "routingNumber": "937482018",
+        "accountNumber": "111211112"
+
+    },
+    "inputValidation": 
+        {"empty": {
+            "bankName": "i{backspace}",
+            "routingNumber": "i{backspace}", 
+            "accountNumber": "i{backspace}"
+        },
+        "incorrect": [
+                {
+                    "bankName": "e", 
+                    "routingNumber": "12345678", 
+                    "accountNumber": "123456789"
+                },
+                {
+                    "bankName": "Exmp", 
+                    "routingNumber": "1234567890", 
+                    "accountNumber": "123456789012"
+                }
+
+        ]}
+    
+}

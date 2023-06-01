@@ -41,14 +41,13 @@ Cypress.Commands.add('loginAPI', (username: string, password: string, status: nu
     }).then(res => {
         expect(res.status).to.eq(status)
     })
+})
 
-    Cypress.Commands.add(('sideNavi'), (node: 
-        'home' | 
-        'user-settings' |
-        'bankaccounts' |
-        'notifications' |
-        'signout') => {
-        cy.get(`[data-test="sidenav-${node}"]`).click()
-    })
-
+Cypress.Commands.add(('sideNavi'), (node: 
+    'home' | 
+    'user-settings' |
+    'bankaccounts' |
+    'notifications' |
+    'signout') => {
+    cy.get(`[data-test="sidenav-${node}"]`).click()
 })
